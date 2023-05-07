@@ -1,0 +1,43 @@
+2023-05-02T15:27:22.672+0530 INFO HV000001: Hibernate Validator 6.2.5.Final
+2023-05-02T15:27:22.715+0530 INFO Starting SpringbootCandidateRestApiApplication using Java 18.0.2.1 on LAPTOP-N196HUC7 with PID 25452 (C:\Spring\SpringBoot\springboot-candidate-rest-api\target\classes started by kirub in C:\Spring\SpringBoot\springboot-candidate-rest-api)
+2023-05-02T15:27:22.719+0530 INFO No active profile set, falling back to 1 default profile: "default"
+2023-05-02T15:27:22.784+0530 INFO The Class-Path manifest attribute in C:\Users\kirub\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.5.0.0\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/kirub/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.5.0.0/oraclepki.jar
+2023-05-02T15:27:22.785+0530 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-02T15:27:22.786+0530 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-02T15:27:23.973+0530 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02T15:27:24.049+0530 INFO Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2023-05-02T15:27:24.787+0530 INFO Tomcat initialized with port(s): 9013 (http)
+2023-05-02T15:27:24.798+0530 INFO Initializing ProtocolHandler ["http-nio-9013"]
+2023-05-02T15:27:24.982+0530 INFO Starting service [Tomcat]
+2023-05-02T15:27:24.982+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-05-02T15:27:25.096+0530 INFO Initializing Spring embedded WebApplicationContext
+2023-05-02T15:27:25.097+0530 INFO Root WebApplicationContext: initialization completed in 2310 ms
+2023-05-02T15:27:25.309+0530 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02T15:27:25.360+0530 INFO HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-02T15:27:25.585+0530 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02T15:27:25.685+0530 INFO HikariPool-1 - Starting...
+2023-05-02T15:27:25.906+0530 INFO HikariPool-1 - Start completed.
+2023-05-02T15:27:25.925+0530 INFO HHH000400: Using dialect: org.hibernate.dialect.OracleDialect
+2023-05-02T15:27:25.940+0530 WARN HHH000063: The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+2023-05-02T15:27:25.942+0530 WARN HHH000064: The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+2023-05-02T15:27:27.150+0530 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02T15:27:27.165+0530 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02T15:27:27.921+0530 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02T15:27:28.207+0530 INFO LiveReload server is running on port 35729
+2023-05-02T15:27:28.479+0530 INFO Starting ProtocolHandler ["http-nio-9013"]
+2023-05-02T15:27:28.511+0530 INFO Tomcat started on port(s): 9013 (http) with context path ''
+2023-05-02T15:27:28.947+0530 INFO Started SpringbootCandidateRestApiApplication in 6.85 seconds (JVM running for 8.864)
+2023-05-02T15:28:04.143+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-02T15:28:04.143+0530 INFO Initializing Servlet 'dispatcherServlet'
+2023-05-02T15:28:04.145+0530 INFO Completed initialization in 1 ms
+2023-05-02T15:28:04.165+0530 INFO Logging for get all candidate method
+2023-05-02T15:28:17.188+0530 WARN Resolved [com.springboot.candidate.exception.ResourceNotFoundException: Employee not found with id : '13']
+2023-05-02T15:30:57.764+0530 INFO Application shutdown requested.
+2023-05-02T15:30:57.776+0530 INFO Pausing ProtocolHandler ["http-nio-9013"]
+2023-05-02T15:30:57.776+0530 INFO Stopping service [Tomcat]
+2023-05-02T15:30:57.776+0530 INFO Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-02T15:30:57.779+0530 INFO Stopping ProtocolHandler ["http-nio-9013"]
+2023-05-02T15:30:57.781+0530 INFO Destroying ProtocolHandler ["http-nio-9013"]
+2023-05-02T15:30:57.786+0530 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02T15:30:57.788+0530 INFO HikariPool-1 - Shutdown initiated...
+2023-05-02T15:30:57.795+0530 INFO HikariPool-1 - Shutdown completed.
